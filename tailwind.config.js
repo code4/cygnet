@@ -1,10 +1,18 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {},
+    },
   },
-  plugins: [],
+  plugins: [
+    // ...
+    require('tailwindcss-font-inter'),
+    require('@tailwindcss/forms'),
+  ],
 }

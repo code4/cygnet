@@ -227,7 +227,7 @@ export default function Home() {
                 <span className="sr-only">Cygnet Call</span>
                 <Image
                   priority
-                  src="/../public/cygnet-logo.jpg"
+                  src="/cygnet-logo.jpg"
                   height={57}
                   width={100}
                   alt="Cygnet Logo"
@@ -438,7 +438,7 @@ export default function Home() {
                 <Image
                   layout="fill"
                   className="h-full w-full object-cover"
-                  src="/../public/pexels-mart-production-7709296.jpg"
+                  src="/pexels-mart-production-7709296.jpg"
                   alt="People working on laptops"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-800 to-indigo-700 mix-blend-multiply" />
